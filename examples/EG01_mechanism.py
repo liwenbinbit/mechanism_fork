@@ -32,7 +32,7 @@ m = Vector((H,F), r=np.sqrt(13**2+30**2), show = False)
 h_dis = 20
 v_leaf = 1
 # t = h_dis/v_leaf
-time = np.linspace(0, 16, 101)
+time = np.linspace(0, 15, 201)
 v1_pos = v_leaf*time
 v1_vel = v_leaf*np.ones(time.size)
 v1_acc = np.zeros(time.size)
